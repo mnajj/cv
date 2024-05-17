@@ -1,0 +1,270 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------}
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Mohab Alnajjar} \\ \vspace{5pt}
+    {\Large \scshape Back-end Engineer} \\ \vspace{10pt}
+
+    \href{mailto:mohab.alnajjar@outlook.com}{\raisebox{-0.2\height}\faEnvelope\  {mohab.alnajjar@outlook.com}} ~  
+    \small \raisebox{-0.1\height}\faPhone\ (+20) 121 132 5591 ~ 
+\href{https://linkedin.com/in/mohabalnajjar }{\raisebox{-0.2\height}\faLinkedin\ mohabalnajjar} ~
+    \href{https://github.com/mnajj}{\raisebox{-0.2\height}\faGithub\ mnajj} ~
+    \faMapMarker\ Tanta, Al-Gharbiyah, Egypt \hspace{1pt}
+\end{center}
+
+%-----------Objective-----------
+\section{Objective}
+As a back-end developer with over a year of hands-on experience, I bring a solid academic background and expertise in .NET. My passion lies in excelling in back-end development and solving complex challenges. I am eager to contribute my skills to a dynamic team in a reputable organization, aiming to enhance my capabilities while delivering impact solutions.
+\vspace{-7pt}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Information Technology Institute}{Oct. 2021 – Jun. 2022}
+      {Professional Web Development and BI 9-Month Program}{Alexandria, Egypt}
+         \resumeSubheading
+      {Tanta University}{2016 – 2020}
+      {Bachelor's Degree in Literature and Education}{Tanta, Egypt}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\large Back-end Developer - Freelance}{Mar. 2024 – present}
+      {\href{https://zatbaloot.com/}{Zat Baloot}}{Saudi Arabia}
+      
+       Zat is a Saudi platform for professional Baloot game tournaments. I was responsible for developing Zat's main website back-end.
+       \vspace{-20pt}
+        \resumeProjectHeading
+          {\underline{Zat}}{}\\ [10pt]
+       Zat's website allows the platform to do its basic requirements like managing game tournaments, publishing platform news, accepting jobs and officiants applications, etc. Some achievements include: 
+       \vspace{-5pt}
+      \resumeItemListStart
+        \resumeItem{Full responsibility for back-end building and management using ASP.NET Core Web API and PostgreSQL.}
+        \resumeItem{Design API service and write well-documented OpenAPI (Swagger) specifications for the front end.}
+        \resumeItem{Verify software security by conducting Dynamic Application Security Testing (DAST) with ZAP.}
+        \resumeItem{Ensure high software quality by incorporating integration testing.}
+        \resumeItem{Build a CI/CD pipeline using GitHub Actions.}
+      \resumeItemListEnd
+      \vspace{4pt}
+      \textit{Technologies used include:} ASP.NET Core (Web Api), EF Core, PostgreSQL, xUnit, Testcontainers, Docker, GitHub Actions, ZAP, OpenAPI (Swagger), GCP Bucket.
+    \resumeSubheading
+      {\large Full-stack Developer}{Nov. 2022 – present}
+      {\href{https://www.pfizer.com/}{Pfizer Inc.} }{Cairo, Egypt}
+
+Pfizer is a renowned pharmaceutical company with a rich history spanning over 170 years. It is recognized for pioneering work developing innovative medicines and vaccines that significantly impact global healthcare. \\
+I contributed to the development, maintenance, and support of enterprise service-based process-driven applications, coordinated by the K2 Blackpearl workflow engine.
+       \vspace{-20pt}
+        \resumeProjectHeading
+          {\underline{Price Change Request (EzFlow PCR)}}{}\\ [10pt]
+PCR system automates approval processes for adjusting product prices across Africa and the Middle East, streamlining operations and ensuring efficient price management.
+\vspace{-20pt}
+        \resumeProjectHeading{\underline{Audio-Visual (EzFlow AV)}}{}\\ [10pt]
+Audio-Visual system facilitates seamless submission and management of audio and video events across Africa and the Middle East enhancing events coordination. \\[4pt]
+\textit{Technologies used include:} K2, ASP.NET Core (Web Api), SQL Server, T-SQL, GitHub Actions, SonarQube, Dapper, Angular, TypeScript, Bootstrap, IIS.
+ \resumeSubheading
+      {\large Data Analyst}{Sep. 2020 – Oct. 2021}
+      {\href{https://www.medicalislands.com/}{Medical Islands} }{Tanta, Egypt}
+
+      Medical Islands is a company of doctors and clinicians dedicated to providing high-quality research services and creating digital and traditional marketing campaigns for doctors, dentists and veterinarians.
+      
+      I conducted detailed medical statistical analyses for university studies and research papers, utilizing advanced software including SPSS, MedCalc, and Excel. My responsibilities included interpreting complex data sets, ensuring accuracy, and presenting findings effectively.
+  \resumeSubHeadingListEnd
+
+
+  %-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL} \\
+     \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio} \\
+     \textbf{Technologies/Frameworks}{: Linux, Jenkins, GitHub, JUnit, WordPress} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+  %-----------Languages-----------
+\section{Languages}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Arabic}{: Native speaker.} \\
+     \textbf{English}{: Professional working proficiency.} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+  
+%-----------PROJECTS-----------
+\section{Side Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {{\href{https://github.com/mnajj/gTetris}{\textbf{gTetris}}}}{2023}
+          \\[7pt]
+          Text-based terminal Tetris game in Go and termbox-go.
+          \vspace{-17pt}
+      \resumeProjectHeading
+          {{\href{https://github.com/ITI-Group-F/FindX}{\textbf{FindX}}}}{2022}
+          \\[7pt]
+          Lost and found items system that creates posts for missing items with text and image search and real-time chat. Submitted in partial fulfillment of the requirement to graduation at ITI. \\ Technologies: \\
+                - Back-end: ASP.NET, FastAPI, JWT, MongoDB Atlas, SignalR Core.\\
+                - Front-end: React.js, React Context API, MUI, Axios, CSS, Bootstrap.
+                \vspace{-17pt}
+                \resumeProjectHeading
+          {{\href{https://github.com/ITI-Group-F/PharmacyManagementSystem}{\textbf{Pharmacy Management System}}}}{2021}
+   \\[7pt]
+          ASP.NET MVC pharmacy system that facilitates adding drugs, and tracing incoming and outgoing invoices with the admin dashboard. \\ Technologies: ASP.NET MVC, SQL Server, Entity Framework Core.
+          \vspace{-17pt}
+                          \resumeProjectHeading
+          {{\href{https://github.com/mnajj/Xamena}{\textbf{Xamena}}}}{2021}
+   \\[7pt]
+Desktop application that generates different examination models, auto-corrects exams, and shows reports concerning students, instructors, classes and exams for admin.\\ Technologies: Windows Forms, .NET Framework, SQL Server, Entity Framework, Stimulsoft Reports.Net
+   \vspace{-17pt}
+                \resumeProjectHeading
+          {{\href{https://github.com/ITI-Group-F/PharmacyManagementSystem}{\textbf{Pharmacy Management System}}}}{2021}
+   \\[7pt]
+          ASP.NET MVC pharmacy system that facilitates adding drugs, and tracing incoming and outgoing invoices with the admin dashboard. \\ Technologies: ASP.NET MVC, SQL Server, Entity Framework Core.
+                    \vspace{-17pt}
+                          \resumeProjectHeading
+          {{\href{https://github.com/mnajj/Xamena}{\textbf{Xamena}}}}{2021}
+   \\[7pt]
+Desktop application that generates different examination models, auto-corrects exams, and shows reports concerning students, instructors, classes and exams for admin.\\ Technologies: Windows Forms, .NET Framework, SQL Server, Entity Framework, Stimulsoft Reports.Net
+   \vspace{-17pt}
+                \resumeProjectHeading
+          {{\href{https://github.com/mnajj/CommerceSystem}{\textbf{Warehouse Management System}}}}{2021}
+   \\[7pt]
+Desktop application that controls warehouse movements and shows related reports. \\ Technologies: Windows Forms, .NET Framework, SQL Server, Entity Framework.
+                    \vspace{-17pt}
+                          \resumeProjectHeading
+          {{\href{https://github.com/mnajj/Xamena}{\textbf{Xamena}}}}{2021}
+   \\[7pt]
+Desktop application that generates different examination models, auto-corrects exams and shows reports concerning students, instructors, classes and exams for admin.\\ Technologies: Windows Forms, .NET Framework, SQL Server, Entity Framework, Stimulsoft Reports.Net
+   \vspace{-17pt}
+                \resumeProjectHeading
+          {{\href{https://github.com/mnajj/ConnectFour}{\textbf{Connect Four}}}}{2021}
+   \\[7pt]
+Multi-threaded online multiplayer game where you can create a room, play with a friend, or just watch. \\ Technologies: Multi threading TCP C\# server with Windows Forms client.
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+\end{document}
